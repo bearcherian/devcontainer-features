@@ -1,0 +1,15 @@
+{
+    "name": "PostgreSQL",
+    "id": "postgres",
+    "version": "1.0.0",
+    "description": "A PostgreSQL feature",
+    "options": {
+        "user": {},
+        "password": {},
+        "database": {}
+        
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
